@@ -1,6 +1,58 @@
 ## [0.0.1] - 2023-09-12
 
-* Burada paketimizi kullanacak kişiler için
- yaptığımız değişiklikleri tarih tarih belirtiyoruz.
- 
-* A description for people who will use that package or version.
+🇹🇷
+
+Yeni Widget Güncellemesi!
+
+Butonlar
+
+* JDButtonIcon
+* JDButtonSingle
+* JDButtonModern
+* JDTButtonitleAndSubtitle
+
+Renkler
+
+* JDDarkColor
+* JDLightColor
+
+Ekran Makyajı Araçları
+
+* JDBackgroundPhoto
+* JDLogo
+* JDSideMenu
+* JDTopBar
+* JDBody
+
+Diyalog ve Uyarılar
+
+* JDDialog
+
+🇺🇸 
+
+New Widget Update!
+
+Buttons
+
+- JDButtonIcon
+- JDButtonSingle
+- JDButtonModern
+- JDTButtonitleAndSubtitle
+
+Colors
+
+- JDDarkColor
+- JDLightColor
+
+Screen Makeup Tools
+
+- JDBackgroundPhoto
+- JDLogo
+- JDSideMenu
+- JDTopBar
+- JDBody
+
+Dialogs and Alerts
+
+- JDDialog
+
