@@ -472,7 +472,7 @@ class JDSideMenu extends StatelessWidget {
                 ),
                 child: LayoutBuilder(
                   builder: (BuildContext context, BoxConstraints constraints) {
-                    return JeaVerticalScrollView(
+                    return JeaVerticalScrollViews(
                       child: const SingleChildScrollView(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
@@ -688,7 +688,7 @@ class JDBody extends StatelessWidget {
   }
 
   Widget scroll() {
-    return JeaVerticalScrollView(
+    return JeaVerticalScrollViews(
       child: SingleChildScrollView(
         controller: controller,
         physics: physics,
@@ -771,7 +771,7 @@ class JDTButtonitleAndSubtitle extends StatelessWidget {
 }
 
 //Utils / Malzemeler
-class JeaVerticalScrollView extends StatelessWidget {
+class JeaVerticalScrollViews extends StatelessWidget {
   final Widget child;
   final bool? reverse = false;
   final EdgeInsetsGeometry? padding;
@@ -782,7 +782,7 @@ class JeaVerticalScrollView extends StatelessWidget {
   final Clip clipBehavior = Clip.hardEdge;
   final String? restorationId;
 
-  JeaVerticalScrollView({
+  JeaVerticalScrollViews({
     super.key,
     required this.child,
     this.padding,
